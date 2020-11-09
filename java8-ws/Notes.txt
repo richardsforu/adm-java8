@@ -1,0 +1,30 @@
+Java 8 features
+------------------
+1. Lamda Expression
+2. Stream API
+3. Date and Time API
+4. Default methods
+5. Concurrency API
+6. Paraller operations
+7. NIO
+
+
+----------------------------------------------------------------
+
+
+interface I1{
+    public abstract void f1();
+}
+
+class C1 implemets I1{
+    
+    @Override
+     void f1(){
+        //-----
+    }
+}
+
+// Problem 
+-> Every interface all methods by defaukt public and abstract
+-> then all its overriden methods must be public 
+

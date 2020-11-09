@@ -1,0 +1,10 @@
+Why Lamdas?
+--------------
+1. To provide functionality / implementation of functional interfaces onloy..
+2. less implementation code
+
+What is Functional interface?
+-> an interface with @FunctionalInterface annotation which contains one and only abstract method
+-> It can have more than one default methods 
+
+
