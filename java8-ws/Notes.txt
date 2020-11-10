@@ -12,6 +12,30 @@ Java 8 features
 ----------------------------------------------------------------
 
 
+Method references ( :: )
+--------------------
+
+This is used to call method referance. 
+
+3 types 
+
+1. static method reference
+2. instance method reference
+3. constructor method reference
+
+
+==========================================
+
+Stream API
+-----------
+- Stream does not store elements 
+
+
+
+
+
+
+
 interface I1{
     public abstract void f1();
 }
