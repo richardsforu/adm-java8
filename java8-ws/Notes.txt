@@ -52,3 +52,29 @@ class C1 implemets I1{
 -> Every interface all methods by defaukt public and abstract
 -> then all its overriden methods must be public 
 
+
+
+
+Java 8 Concurrency Collections
+--------------------------------
+
+Tranditional Collections issues 
+=====================================
+
+1. Thread Safty
+        -> List
+                Vector
+        -> Map
+                Hashtable
+
+2. COnverted Non synchronized classes into synchronized is not up the mark in terms of performance
+
+3. Changes of getting ConcurrencyModificationException while operating on same collection more than one operation at same time
+
+
+Concurrency new Collection classes
+
+1. ConcurrentHashMap
+2. CopyOnWriteArrayList
+3. CopyOnWriteArraySet
+
