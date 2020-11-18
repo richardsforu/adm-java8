@@ -3,12 +3,15 @@ package com;
 import java.util.ArrayList;
 import java.util.ListIterator;
 import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.CopyOnWriteArraySet;
 
 public class ArrayListDemo2 {
 	
 	public static void main(String[] args) {
 		//ArrayList<String> al=new ArrayList<>();
+		
 	    CopyOnWriteArrayList<String> al=new CopyOnWriteArrayList<>();
+	   // CopyOnWriteArraySet<E>
 		
 		al.add("A");
 		al.add("B");
