@@ -13,7 +13,10 @@ public class BlockingIO extends Thread {
 
 	void readInput() {
 		System.out.println("Input a number: ");
+		
 		int x = sc.nextInt();
+		
+		
 	}
 
 	public static void main(String[] args) {
